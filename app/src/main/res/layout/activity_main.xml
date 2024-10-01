@@ -14,8 +14,14 @@
 
     <ImageView
         android:id="@+id/myImageView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:src="@drawable/logo__padoru"
-        android:layout_margin="50dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo__padoru" />
+
+    <EditText
+        android:id="@+id/plain_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter your workspace here..."
+        android:inputType="text" />
 </LinearLayout>

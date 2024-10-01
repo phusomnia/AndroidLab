@@ -9,12 +9,20 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivityJ extends AppCompatActivity{
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    // Cach 1
+//    @Override
+//    public void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//
+//        ImageView myImageView = new ImageView(this);
+//        myImageView.setImageResource(R.drawable.logo__padoru);
+//        setContentView(myImageView);
+//    }
 
-        ImageView myImageView = new ImageView(this);
-        myImageView.setImageResource(R.drawable.logo__padoru);
-        setContentView(myImageView);
+    // Cach 2
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
     }
 }
